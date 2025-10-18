@@ -1,0 +1,14 @@
+.a{
+    height: 430px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 130px;
+    background-color: #95D070;
+    background: radial-gradient(circle,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 47%, rgba(149, 208, 112, 1) 71%, rgba(167, 184, 73, 1) 83%, rgba(237, 221, 83, 1) 100%);
+}
+.a1{
+    height: 50px;
+    width: 40px;
+    margin: 8px;
+    border-radius: 10px; 
+}

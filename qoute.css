@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600PX;
+    background-color: rgb(180, 212, 240);
+}
+.quotebox{
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 60px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    transition: all 0.4s ease-in-out;
+}
+.quotebox:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+.quotebox:after{
+           
+            font-size: 0.9rem;
+            margin-top: 8px;
+            color:#ddd;
+}
